@@ -1,0 +1,149 @@
+# ========================================
+# PYTHON COMPILED FILES
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ========================================
+# PYTHON DISTRIBUTION & PACKAGING
+# ========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# VIRTUAL ENVIRONMENT
+# ========================================
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================================
+# IDE & EDITOR FILES
+# ========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# ========================================
+# OPERATING SYSTEM FILES
+# ========================================
+Thumbs.db
+*.tmp
+*.temp
+desktop.ini
+
+# ========================================
+# JUPYTER NOTEBOOKS
+# ========================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================================
+# ENVIRONMENT & SECRETS
+# ========================================
+.env
+.env.local
+.env.*.local
+*.env
+secrets.py
+config.py
+
+# ========================================
+# LOGS & ERROR REPORTS
+# ========================================
+*.log
+logs/
+error_log/
+
+# ========================================
+# TEMPORARY PROJECT FILES
+# ========================================
+temp_audio.wav
+*.tmp_audio
+*.temp_audio
+*.temp.wav
+
+# ========================================
+# MODEL FILES (EXCLUDED - USE GIT LFS INSTEAD)
+# ========================================
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+*.model
+*.weights
+*.caffemodel
+
+# ========================================
+# COMPRESSED FILES (Optional)
+# ========================================
+*.zip
+*.rar
+*.7z
+*.gz
+*.tar
+*.bz2
+
+# ========================================
+# TEST & COVERAGE
+# ========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.cover
+
+# ========================================
+# DOCKER
+# ========================================
+.dockerignore
+docker-compose.override.yml
+Dockerfile.dev
+
+# ========================================
+# MISCELLANEOUS
+# ========================================
+*.bak
+*.backup
+*.orig
+*.rej
+*.sublime-*
+*.sublime-workspace
+.DS_Store?
+._*
+Spotlight-V100
+.Trashes
+ehthumbs.db
